@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+     <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="app.js"></script>
+</head>
+<body>
+        <div class="content">
+            <div class="heads">
+                <table>
+                    <tr>
+    <td><input id="input" placeholder="City"></input></td><td><button id="buttonOne" onclick="onThisClick()">GO</button></td><td>
+    <p id="errorStatus"></p></td>
+</tr>
+<tr>
+        <td><div class="vaderstreck"><span id="cel" onclick="changetoCel()">Celcius&deg;</span>/<span id="far" onclick="changetoFar()">Farenheit&deg;</span></div></td>
+</tr>
+</table>
+</div>
+    <div class="application">
+        <div class="content"><table class="picture"><tr>
+            <td><img id="icon" src="img/codes/800.png"/></td>
+        <td><div class="temp"><span id="celcius">-</span>&deg;</div></td></tr></table>
+        <div class="descri"><span id="description">-</span></div>
+        <div class="city"><span id="loc">-</span></div>
+        <div class="country"><span id="country">-</span></div>
+        <div class="humidity">Humidity: <span id="hum">-</span>%</div>
+        <div class="vind">Wind: <span id="wind">-</span> m/s</div>
+
+    </div>
+</div>
+
+</body>
+</html>
