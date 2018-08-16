@@ -1,0 +1,104 @@
+
+#errorStatus{
+    color:red;
+    font-size: 14px;
+    width:160px;
+    margin-left:25px;
+    font-style: bold;
+}
+
+#input{
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+}
+#buttonOne{
+    height: 40px;
+    width:70px;
+    font-size: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-family:Garamond;
+    font-size: 14px;
+    background-color:white;
+}
+.application{
+    height: 290px;
+    width: 310px;
+    margin-left:37%;
+    margin-top:0.5%;  
+    border-radius: 60px 60px;  
+    
+    border:1px solid white;
+    
+    
+}
+
+.temp{
+   text-align:center;
+   font-size: 45px;
+   font-family:Garamond;
+}
+.picture{
+    margin-left:62px;
+    
+}
+.city{
+    text-align:center;
+    font-size: 45px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.vind{
+    text-align:center;
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.humidity{
+    text-align:center;
+    font-size: 15px;
+    margin-top:10px;
+    font-family: 'Cormorant Garamond', serif;
+ }
+ .descri{
+    text-align:center;
+    font-size: 20px;
+    margin-top:15px;
+    font-family: 'Cormorant Garamond', serif;
+ }
+ .country{
+    text-align:center;
+    font-size: 20px;
+    font-style: bold;
+    font-family: 'Cormorant Garamond', serif;
+
+ }
+ .vaderstreck{
+     margin-top:1%;
+     font-family: 'Cormorant Garamond', serif;
+     
+ }
+ .heads{
+     width:500px;
+     height: 90px;
+     margin-top:13%;
+     margin-left: 37%;
+     
+    
+     
+    
+ }
+h3{
+    
+    font-family: 'Cinzel', serif;
+    opacity: 0.8;
+    margin-top:5px;
+}
+#icon{
+    width:75px;
+}
+body{
+    background-color: black;
+    color:white;
+}
+ 
